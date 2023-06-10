@@ -1,3 +1,42 @@
-h1{
-    width okkl
+#가 {
+    /* 폰트 사이즈 설정 - 키워드*/
+    font-size:xx-small;
+    color: #ff0000;
+}
+#나 {
+    /* 폰트 사이즈 설정 - 키워드*/
+    font-size:medium;
+    color: aqua;
+}
+#다 {
+    /* 폰트 사이즈 설정 - 키워드*/
+    font-size:xx-large;
+    color: rgb(0,0,225,alpha);
+}
+#라의상위요소{
+    font-size:20px;
+
+}
+#라 {
+    font-size:2em;
+    color: rgb(0,0,255,0.5);
+    text-align:justify;
+}
+#마{
+    font-size: 16px;
+    font-style: italic;
+    font-style: normal;
+    font-style
+}
+#바{
+    font-size:16px;
+    font-weight: bolder;
+
+}
+#사{
+    font-size: 16px;
+    font-weight: 100;
+}
+.jystufy-text{
+    text-align: justify;
 }
