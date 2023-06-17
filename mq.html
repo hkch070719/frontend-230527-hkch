@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 쿼리 이론</title>
+    <link rel="stylesheet" media="print" href="mp.css">
+    <style>
+        @import url("mp.css") only screen and(min-widht:321px)and (max-width:768px);
+    </style>
+    <style media="screen" and (max-width: 320px)>
+        body{
+            background-color: orange;
+        }
+    </style>
+    <style>
+        @media screen and (max-width:320px) {
+            body{
+                background-color: orange;
+            }
+            
+        }
+        @media screen and (max-width:160px) {
+            body{
+                background-color: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--@media [only | not] 미디어 유형 [and 조건 ] *[and 조건]
+    only:미디어 쿼리를 지정하지 않은 웹 브라우저에서는 미디어 쿼리를 무시하고 실행하지 않습니다.
+not:다음에 지정하는 미다어 유형을 재외합니다.
+and:조건을 여러개 연결해서 추가할수 있습니다-->
+
+
+<style>
+    @media screen and (min-widht:768px)and (max-widht:1439) {
+        /*css 스타일 적용
+        all:모든 미디어 유형에서 사용
+        print:인쇄 장치에서 사용
+        screen:컴퓨터 스크린에서 사용
+        tv:음성과 영상이 동시에 출력되는 tv에서 사용*/
+    }
+    @media screen and (min-device-widht:390px) and (min-device-height:844px){
+        /*orientation: portrait; ->모바일을 새로로 배치할 경우*/
+
+        /**/
+
+    }
+    @media screen and (min-device-widht:390px) and (min-device-height:844px){
+
+}
+</style>
+</body>
+</html>
